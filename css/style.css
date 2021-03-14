@@ -1,0 +1,215 @@
+html, body {
+    padding: 0px;
+    margin:0;
+    font-size: 12px;
+    font-family: Helvetica;
+}
+
+/* Start Variables*/
+
+/* Colors */
+:root{
+    --primary-color:#FFFFFF;
+    --secondary-color: #000000;
+    --tercery-color: #fde6db;
+    --primary-font: 'Dancing Script';
+}
+/* End Variables */
+.displayFlex {
+    display: flex;
+}
+
+body{
+    opacity: 1;
+    background-image: radial-gradient(#fde6db 1.9500000000000002px, #ffffff 1.9500000000000002px);
+    background-size: 39px 39px;
+}
+
+
+header {
+    background-color: var(--primary-color);
+    box-shadow: 2px 2px 5px #999;
+    
+}
+nav {
+    max-height: 15vh;
+    min-width: 90%;
+    max-width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+nav .tittle_site a{
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px;
+    font-size: 3rem;
+    min-width: 20vw;
+    max-width: 40vw;;
+}
+nav figure img {
+    height: 8vh;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 20vw;
+    max-width: 60vw;
+    max-width: 100vw;
+    max-height: 15vh;
+    background-color: var(--primary-color);
+    /* background-color:blanchedalmond; */
+    
+}
+
+nav li {
+    list-style: none;
+    margin: 10px;
+}
+nav li a{
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+nav li a:hover {
+    color: gray;
+}
+
+body{
+
+}
+
+/* Main section */
+main {
+
+}
+
+.section_1{
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+.title_section_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    width: 80%;
+    margin: 0 auto;
+}
+.title_section_1 h1{
+    font-family: var(--primary-font);
+    font-size: 3rem;
+    text-align: center;
+}
+
+.products-container{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 80%;
+}
+
+
+.product{
+    max-height: 500px ;
+    max-width: 300px;
+    padding: 10px;
+
+}
+
+
+.products-container .content {
+    padding: 20px;
+    box-shadow: 2px 2px 5px #999;
+    background-color: var(--primary-color);
+}
+.content .image_content {
+    text-align: center;
+}
+.content .image_content img{
+    height: 150px;
+}
+.products-container .content h2 {
+    text-align: center;
+   }
+.products-container .content p {
+ text-align: justify;
+}
+.main_button {
+    background-color: var(--tercery-color);
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+} 
+
+.main_button:hover{
+    background-color: #fde6dbad;
+}
+
+.section_2 {
+    height: 100vh;
+}
+
+.beneficios_container {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.beneficios_container .beneficio{
+    padding: 20px;
+    max-width: 300px;
+}
+
+
+
+.title_section_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 20vh;
+    width: 80%;
+    margin: 50px auto 0px;
+}
+.title_section_2 h1{
+    font-family: var(--primary-font);
+    font-size: 3rem;
+    text-align: center;
+}
+.beneficios_container{ 
+    height: auto;
+}
+
+.beneficios_container .beneficio .beneficio_content .image_beneficio_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    height: 300px;
+    width: 250px;
+}
+.beneficios_container .beneficio .beneficio_content .image_beneficio_content img{
+    width: 300px;
+}
+.beneficios_container .beneficio .beneficio_content h2{
+    text-align: center;
+}
+.beneficios_container .beneficio .beneficio_content p{
+    text-align: center;
+}
+
+/* Animaciones */
